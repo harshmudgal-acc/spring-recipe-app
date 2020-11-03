@@ -7,7 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "UNITOFMEASURE")
 public class UnitOfMeasure {
 
 	@Id

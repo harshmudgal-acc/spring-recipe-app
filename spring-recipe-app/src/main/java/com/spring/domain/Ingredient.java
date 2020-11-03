@@ -27,6 +27,7 @@ public class Ingredient {
 	private UnitOfMeasure unitOfMeasure;
 
 	 public Ingredient() {
+		 
 	 }
 
 	 public Ingredient(String description, BigDecimal amount, UnitOfMeasure unitOfMeasure, Recipe recipe) {

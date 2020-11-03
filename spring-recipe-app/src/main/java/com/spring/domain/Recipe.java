@@ -41,7 +41,6 @@ public class Recipe {
 	@OneToOne(cascade=CascadeType.ALL)
 	private Notes note;
 	
-	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
 	private Set<Ingredient> ingredients = new HashSet<>();
 	
